@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<div class="post">
+  <header class="post-header">
+    <div class="text-muted">{{ page.date | date: '%d.%m.%Y'}}, {{ page.zeit }} Uhr, {{ page.ort }}</div>
+  </header>
+
+  <article class="post-content">
+    {{ content }}
+  </article>
+
+  {% if page.status == "upcoming" %}
+    <a href="{{ page.meetuplink }}" class="btn btn-primary">Anmeldung über Meetup</a>
+  {% endif %}
+</div>

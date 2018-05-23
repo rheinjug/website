@@ -1,0 +1,8 @@
+build
+.sass-cache
+_site
+target
+.idea
+
+featured.yml
+_posts

@@ -1,0 +1,21 @@
+---
+layout: default
+title: Vergangene Veranstaltungen
+permalink: /veranstaltungsarchiv
+---
+
+{% for post in site.posts  %}
+{% if post.status=="past" %}
+<div>
+    <h4> {{ post.title }} </h4>
+    <div class="text-muted">
+        {{post.date | date: '%d.%m.%Y'}}, {{ post.zeit }} Uhr
+    </div>
+    <p>{{ post.content | truncatewords: 35}}</p>
+    <a class="btn btn-link" href="{{ post.url }}">mehr...</a>
+</div>
+{% if forloop.last == false %}
+<hr>
+{% endif %}
+{% endif %}
+{% endfor %}

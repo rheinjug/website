@@ -1,0 +1,23 @@
+---
+layout: default
+title: Veranstaltungen
+permalink: /veranstaltungen
+---
+
+{% for post in site.posts reversed %}
+{% if post.status=="upcoming" %}
+<div>
+    <h4> {{ post.title }} </h4>
+    <div class="text-muted">
+        {{post.date | date: '%d.%m.%Y'}}, {{ post.zeit }} Uhr
+           <span class="badge badge-pill badge-success float-right">Demnächst</span>
+    </div>
+    <p>{{ post.content | truncatewords: 35}}</p>
+    <a class="btn btn-link" href="{{ post.url }}">mehr...</a>
+</div>
+{% if forloop.last == false %}
+<hr>
+{% endif %}
+{% endif %}
+{% endfor %}
+
