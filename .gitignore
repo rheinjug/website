@@ -6,3 +6,7 @@ target
 
 featured.yml
 _posts
+*.iml
+out/
+vendor/
+.bundle/
