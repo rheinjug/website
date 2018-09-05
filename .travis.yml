@@ -1,5 +1,4 @@
 language: ruby
-sudo:true
 rvm:
 - 2.4
 branches:
