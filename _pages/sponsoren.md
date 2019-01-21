@@ -18,8 +18,5 @@ Die Valtech GmbH mit Standorten in Düsseldorf, Frankfurt und München zählt la
 # Silbersponsor: Collenda
 Collenda mit Hauptsitz in Meerbusch bei Düsseldorf ist einer der europaweit führenden Anbieter digitaler Lösungen im Kredit- und Forderungsmanagement. Das Unternehmen mit Standorten in Deutschland und den Niederlanden betreut seit über 30 Jahren Unternehmen aus dem Finanzsektor und der Industrie. Ein besonderer Fokus von Collenda liegt in der Digitalisierung der Prozesse, dem Einsatz künstlicher Intelligenz, Forderungsmanagement in der Cloud sowie Industrie 4.0-Lösungen für das Kredit- und Forderungsmanagement.
 
-# Silbersponsor: ecx.io
-Wir sind ecx.io, eine der führenden Digital-Agenturen Europas. Wir bieten spannende Projekte für namhafte Kunden und internationale Marken — mit viel Verantwortung und Teamwork. Und wir suchen Kolleginnen und Kollegen mit Power & Drive, die für unsere interdisziplinären Teams eine Bereicherung sind.
-
 # Silbersponsor: FACT
 Die FACT ist als Teil des Software AG Konzerns ein führender Anbieter von Softwarelösungen, konzeptioneller Beratung und weitergehender Dienstleistungen für den gesamten Kapitalanlageprozess. Unsere Softwarelösungen decken den kompletten Java-Technologie-Stack ab, umfassen neben webbasierten Plattformen auch komplexe Eclipse-RCP-Anwendungen und vereinen viele bewährte als auch brandneue Technologien miteinander. Wir suchen dynamische Teamplayer, die Spaß an der Entwicklung haben und einem jungen motivierten Kollegenkreis helfen wollen den erfolgreichen Unternehmensweg weiter zu bestreiten.
