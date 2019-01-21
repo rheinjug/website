@@ -3,48 +3,43 @@
             [slugger.core :as slugger])
   (:gen-class))
 
+(defn extract-render-data [first-meetup-entry]
+  (when-not (nil? first-meetup-entry)
+    (let [{beschreibung :description
+           titel :name
+           {ort :name} :venue
+           datum :time
+           eintrag :updated
+           link :link
+           id :id
+           status :status
+           time :local_time} first-meetup-entry]
+      {:ort ort
+       :id id
+       :link link
+       :eintrag (java.util.Date. eintrag)
+       :datum (java.util.Date. datum)
+       :titel titel
+       :status (keyword status)
+       :beschreibung beschreibung
+       :zeit time})))
 
-
-
-
-
-
-(defn extract-render-data [{beschreibung :description
-                            titel :name
-                            {ort :name} :venue
-                            datum :time
-                            eintrag :updated
-                            link :link
-                            id :id
-                            status :status
-                            time :local_time}]
-  {:ort ort
-   :id id
-   :link link
-   :eintrag (java.util.Date. eintrag)
-   :datum (java.util.Date. datum)
-   :titel titel
-   :status (keyword status)
-   :beschreibung beschreibung
-   :zeit time})
-
-(defn render-next-event [{:keys [beschreibung eintrag ort link titel datum status]}]
-
-  (format "
+(defn render-next-event [extracted-data]
+  (when-not (nil? extracted-data)
+    (let [{:keys [beschreibung eintrag ort link titel datum status]} extracted-data]
+      (format "
 layout: featured
 date: %1$tY-%1$tm-%1$td 14:55:05 +0100
 title: \"%2$s\"
 postlink: %4$s
 meetuplink: %3$s
 "
-          datum
-          titel
-          link
-          (format "%1$tY-%1$tm-%1$td-%2$s.markdown" datum (slugger/->slug titel))))
-
+              datum
+              titel
+              link
+              (format "%1$tY-%1$tm-%1$td-%2$s.markdown" datum (slugger/->slug titel))))))
 
 (defn render [{:keys [beschreibung eintrag ort link titel datum status zeit]}]
-
   (format "---
 layout: post
 date: %1$tY-%1$tm-%1$td 14:55:05 +0100
@@ -69,12 +64,12 @@ zeit: \"%6$s\"
            (slurp "https://api.meetup.com/rheinjug/events?status=upcoming,past")
            :key-fn keyword))
 
-(def next-event (-> (slurp "https://api.meetup.com/rheinjug/events?page=1")
-                    (json/read-str ,,, :key-fn keyword)
-                    first
-                    extract-render-data
-                    render-next-event))
-
+(def next-event
+  (-> (slurp "https://api.meetup.com/rheinjug/events?page=1")
+      (json/read-str,,, :key-fn keyword)
+      first
+      extract-render-data
+      render-next-event))
 
 (defn -main
   [& args]
