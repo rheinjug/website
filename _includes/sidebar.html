@@ -2,12 +2,24 @@
   <div class="card-body">
     <h5><strong>Nächste Veranstaltung</strong></h5>
 
-
+    {% if site.data.featured %}
     <p>{{site.data.featured.date | date: '%d.%m.%Y'}}</p>
     <p>{{ site.data.featured.title }}</p>
-    <a href="{{ site.data.featured.meetuplink }}" class="btn btn-primary btn-sm" style="white-space:normal !important">
+    <a class="btn btn-primary btn-sm" href="{{ site.data.featured.meetuplink }}" style="white-space:normal !important">
       Anmeldung über Meetup
     </a>
+    {% else %}
+    <p class="text-info">
+      <i>
+        Aktuell sind keine weiteren Veranstaltungen geplant. Besuche uns bald wieder, es wird sicherlich ein weiterer
+        spannender Vortrag folgen!
+      </i>
+    </p>
+    <a class="btn btn-primary btn-sm" href="https://www.meetup.com/de-DE/rheinJUG/"
+       style="white-space:normal !important">
+      Auf Meetup nachschauen
+    </a>
+    {% endif %}
   </div>
 </div>
 
