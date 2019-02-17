@@ -48,8 +48,10 @@
 
 (defn build-mediathek
   "Retrieve XML feed from mediathek "
-  ([output-to]
-   (let [url "https://mediathek.hhu.de/rss/7/feed/"]
-     (->> url xml/parse parse-entries render h/html (spit output-to))))
+  ([output-to output-latest-to]
+   (let [url "https://mediathek.hhu.de/rss/7/feed/"
+         entries (parse-entries (xml/parse url))]
+     (->> (take 3 entries) render h/html (spit output-latest-to))
+     (->> entries render h/html (spit output-to))))
   ([]
-   (build-mediathek "_includes/mediathek_entries.html")))
+   (build-mediathek "_includes/mediathek_entries.html" "_includes/mediathek_entries_latest.html")))
