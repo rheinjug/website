@@ -1,6 +1,7 @@
 (ns hyde.core
   (:require [clojure.data.json :as json]
-            [slugger.core :as slugger])
+            [slugger.core :as slugger]
+            [clojure.spec.alpha :as s])
   (:gen-class))
 
 (defn extract-render-data [first-meetup-entry]
@@ -23,6 +24,9 @@
        :status (keyword status)
        :beschreibung beschreibung
        :zeit time})))
+
+(s/fdef extract-render-data
+  :args (s/cat :meetup-entry coll?))
 
 (defn render-next-event [extracted-data]
   (when-not (nil? extracted-data)

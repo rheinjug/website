@@ -10,3 +10,5 @@ _posts
 out/
 vendor/
 .bundle/
+.lein-repl-history
+.nrepl-port
