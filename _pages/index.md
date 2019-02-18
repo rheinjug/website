@@ -23,5 +23,9 @@ Der Ablauf einer Abendveranstaltung bei der rheinjug ist folgendermaßen struktu
 
 Die Veranstaltungen und auch die Verpflegung sind für unsere Besucher vollkommen kostenfrei.
 
+----
+
+#### Neueste Aufzeichnungen
+
 {% include mediathek_entries_latest.html %}
 

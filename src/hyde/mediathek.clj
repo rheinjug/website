@@ -47,7 +47,7 @@
      [:img.thumbnail {:src thumbnail}]]]
    [:div.col-8
     [:a {:href link}
-     [:h5.title  title]]
+     [:h5.title title]]
     (when subtitle [:h6.subtitle subtitle])
     [:span.published.float-right.small
      (f/unparse (f/formatter "dd.MM.yyyy") published)]
@@ -72,4 +72,3 @@
      (->> entries render h/html (spit output-to))))
   ([]
    (build-mediathek "_includes/mediathek_entries.html" "_includes/mediathek_entries_latest.html")))
-(build-mediathek)
