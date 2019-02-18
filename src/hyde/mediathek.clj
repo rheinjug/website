@@ -1,7 +1,8 @@
 (ns hyde.mediathek
   (:require [clojure.xml :as xml]
             [hiccup.core :as h]
-            [clj-time.format :as f]))
+            [clj-time.format :as f]
+            [clojure.string :as string]))
 
 (defn- single-group-by
   "Like group-by but only returns a single value per key"
@@ -31,20 +32,36 @@
       (map (partial single-group-by :tag))
       (map normalize-entry))))
 
+(defn- truncate-string [s]
+  (let [words (string/split s #"\s+")
+        truncated (string/join " " (take 25 words))]
+    (if (< 25 (count words))
+      (str truncated "...")
+      truncated)))
+
 (defn- render-entry [{:keys [id duration title author summary categories thumbnail link subtitle published]}]
-  [:li.entry {:id id}
-   [:a {:href link}
-    [:img.thumbnail {:src thumbnail}]]
-   [:h4.title title]
-   (when subtitle [:h5.subtitle subtitle])
-   [:p.author author]
-   [:p.published (f/unparse (f/formatter "dd.MM.yyyy") published)]
-   (when summary [:p.summary summary])])
+  [:div.row.entry {:id id
+                   :style "margin-bottom: 2rem;"}
+   [:div.col-4
+    [:a {:href link}
+     [:img.thumbnail {:src thumbnail}]]]
+   [:div.col-8
+    [:a {:href link}
+     [:h5.title title]]
+    (when subtitle [:h6.subtitle subtitle])
+    [:span.published.float-right.small
+     (f/unparse (f/formatter "dd.MM.yyyy") published)]
+    [:p.author author]
+    (when summary
+      [:p.summary (truncate-string summary)])
+    [:a.btn.btn-light {:href link} "Zum Video"]]])
 
 (defn- render [entries]
-  [:ol.entries.list-group (->> entries
-                            (sort-by :published) reverse
-                            (map render-entry))])
+  [:div.entries.list-group
+   (->> entries
+        (sort-by :published)
+        reverse
+        (map render-entry))])
 
 (defn build-mediathek
   "Retrieve XML feed from mediathek "
