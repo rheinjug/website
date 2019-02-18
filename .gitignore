@@ -10,3 +10,7 @@ _posts
 out/
 vendor/
 .bundle/
+.lein-repl-history
+.nrepl-port
+_includes/mediathek_entries.html
+_includes/mediathek_entries_latest.html
