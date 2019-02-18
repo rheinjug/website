@@ -1,7 +1,8 @@
 (ns hyde.mediathek
   (:require [clojure.xml :as xml]
             [hiccup.core :as h]
-            [clj-time.format :as f]))
+            [clj-time.format :as f]
+            [clojure.string :as string]))
 
 (defn- single-group-by
   "Like group-by but only returns a single value per key"
@@ -31,6 +32,13 @@
       (map (partial single-group-by :tag))
       (map normalize-entry))))
 
+(defn- truncate-string [s]
+  (let [words (string/split s #"\s+")
+        truncated (string/join " " (take 25 words))]
+    (if (< 25 (count words))
+      (str truncated "...")
+      truncated)))
+
 (defn- render-entry [{:keys [id duration title author summary categories thumbnail link subtitle published]}]
   [:div.row.entry {:id id
                    :style "margin-bottom: 2rem;"}
@@ -44,7 +52,8 @@
     [:span.published.float-right.small
      (f/unparse (f/formatter "dd.MM.yyyy") published)]
     [:p.author author]
-    (when summary [:p.summary summary])
+    (when summary
+      [:p.summary (truncate-string summary)])
     [:a.btn.btn-light {:href link} "Zum Video"]]])
 
 (defn- render [entries]
@@ -63,3 +72,4 @@
      (->> entries render h/html (spit output-to))))
   ([]
    (build-mediathek "_includes/mediathek_entries.html" "_includes/mediathek_entries_latest.html")))
+(build-mediathek)
