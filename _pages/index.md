@@ -35,7 +35,7 @@ Die Veranstaltungen und auch die Verpflegung sind für unsere Besucher vollkomme
 
 #### JavaLand 2019
 
-[![JavaLand 2019](files/events/javaland2019.jpg "JavaLand 2019")](http://www.rheinjug.de)
+[![JavaLand 2019](files/events/javaland2019.jpg "JavaLand 2019")](https://www.javaland.eu)
 
 Die JavaLand 2019 empfängt euch vom 19. bis 21. März 2019 im Phantasialand Brühl. Das große Wiedersehen der Community mit Freizeitpark-Flair bietet auch in diesem Jahr wieder die ideale Umgebung für Wissensaustausch und Networking. Euch erwarten zahlreiche Vorträge von Top-Referenten, interaktive Community-Aktivitäten und jede Menge Spaß!
 
