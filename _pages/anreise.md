@@ -22,4 +22,4 @@ Es kann verkehrstechnisch günstiger sein, mit dem Bus zu kommen. Nehmen Sie die
 Lassen Sie sich zur Haltestelle Universität Mitte bringen.
 
 ## PKW
-Die ausgewiesenen Parkplätze an der Universität sind kostenlos. Bitte beachten Sie, dass Falschparker abgeschleppt werden. Für Besucher der rheinjug bietet sich der Parkplatz P2 an, am Abend sind dort in der Regel hinreichend viele Parkplätze frei.
+Die ausgewiesenen Parkplätze an der Universität sind kostenlos. Bitte beachten Sie, dass Falschparker abgeschleppt werden. Für Besucher der rheinjug bieten sich die Parkplätze P2 und P10 an, am Abend sind dort in der Regel hinreichend viele Parkplätze frei. Es gibt auch eine Tiefgarage (P3), die Zufahrt ist zur Zeit wegen einer Baustelle [verlegt](https://www.mitarbeiter.hhu.de/intranet-aktuell/aktuelle-meldungen-intranet/news-detail/article/baubeginn-erweiterung-oeconomicum-gebaeude-2431-und-verlegung-der-zufahrt-zur-tiefgarage-p-1.html?cHash=99cfb61690129f9da78cb90c5e5abf8a). 
