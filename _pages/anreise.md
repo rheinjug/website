@@ -6,7 +6,9 @@ title: Anreise
 
 Unsere Vorträge finden an der Heinrich-Heine Universität Düsseldorf im Hörsaal 5C statt. Die Universität Düsseldorf ist leicht zu finden, aber der Campus ist groß. Hier finden Sie Informationen zur Anreise mit Auto und Öffentlichen Verkehrsmitteln.
 
-![Anreise zur rheinjug](files/anreise.jpg "Anreise zur rheinjug")
+<img alt="Anreise zur rheinjug" class="img img-fluid w-100" src="{{ 'files/anreise.jpg' | absolute_url }}">
+<span class="text-muted float-right">&copy; OpenStreetMap-Mitwirkende</span>
+
 
 ## Rheinbahn App/Campus-Fahrplan/Campus Navigator
 Mit Hilfe des  [Campus-Fahrplan](http://www.rheinbahn.de/fahrplan/karten/Seiten/App_Campus.aspx) der Rheinbahn können Sie sich bis zum Hörsaal navigieren lassen. Sie können als Ziel (wichtiger Punkt) dort HS 5C eintragen. Die [Rheinbahn App](http://www.rheinbahn.de/fahrplan/karten/Seiten/App_Campus.aspx) hat ebenfalls eine eingebaute Navigation für den Campus. Die Universität stellt ebenfalls einen interaktiven [Campus Navigator](https://cx.phil.hhu.de/) zur Verfügung.
