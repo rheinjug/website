@@ -9,11 +9,21 @@ Die rheinjug wird ehrenamtlich von Java-Enthusiasten geleitet. Sie bietet intere
 
 # Goldsponsor: Valtech Mobility
 
-![Goldsponsor: Valtech Mobility](files/sponsoring/valtech.png "Goldsponsor: Valtech Mobility")
+![Goldsponsor: Valtech Mobility](files/sponsoring/valtech_mobility.png "Goldsponsor: Valtech Mobility")
 
-Als Fullservice-Digitalagentur verknüpft Valtech langjährige Technologie-Kompetenz und Marketing-Erfahrung, um Unternehmen auf allen Ebenen des digitalen Wandels zu unterstützen. "Connect what's not connected, create what's missing": Die Integration von neuen und bestehenden Technologien gehört zu den Kernkompetenzen von Valtech. Ob komplexe Replatforming-Projekte, E-Commerce- Plattformen, mobile Anwendungen oder Dienste rund um das vernetzte Fahrzeug: Gemeinsam mit dem Kunden und durch den Einsatz agiler Methoden entwickelt Valtech flexible und individuelle Lösungen - und realisiert neue Geschäftsmodelle und Markenerlebnisse entlang der gesamten Wertschöpfungskette.
+Software-Manufaktur für digitale Lösungen rund um das vernetzte Fahrzeug
 
-Die Valtech GmbH mit Standorten in Düsseldorf, Frankfurt und München zählt laut BVDW-Ranking zu den zehn umsatzstärksten deutschen Digitalagenturen. Sie ist Teil der internationalen Valtech- Gruppe mit mehr als 1600 Mitarbeitern an 16 Standorten in elf Ländern. Zu den Kunden von Valtech Deutschland zählen Audi, Bertelsmann Music Group, BMW, Porsche, Linde, Bayer CropScience, Marc O'Polo und Miele, zum Partnernetzwerk gehören Firmen wie Adobe, SAP Hybris und Sitecore.
+Mit der Elektromobilität und dem autonomen Fahren ist die Vernetzung Kernbestandteil des Automobils geworden. Der Anspruch von Valtech Mobility ist, hierfür innovative Lösungen bereitzustellen, die intuitiv zu bedienen sind, definierten Mehrwert bieten und konsequent bis ins Detail durchdacht sind. Gestaltung und Realisierung kommen aus einer Hand – von der User-Interaktion bis zur Fahrzeug-Integration.
+
+
+Portfolio
+
+Seit 1998 unterstützt Valtech Mobility, beginnend bei der Strategieberatung, Partner bei der Entwicklung und Einführung innovativer Geschäfts- und Prozessmodelle. Plug & Play- und Managed Services, Individuallösungen, Plattformentwicklung und -integration: Das Portfolio umfasst mehr als 50 Services in 370 Varianten – in einem Ökosystem mit über 6 Millionen vernetzten Fahrzeugen in 64 Märkten und über 20 Device-Generationen.
+
+
+Valtech Mobility: Joint Venture von Audi und Valtech
+
+Bereits seit 2009 arbeiten die AUDI AG und die Valtech GmbH im Bereich der Fahrzeugvernetzung zusammen. Mit der Gründung des Joint Ventures im Jahr 2018 wurde die erfolgreiche Partnerschaft intensiviert. Big Data, Elektromobilität, autonomes Fahren und vernetzte Plattformen sind die Kernthemen, für die neue Produkte, Dienste und Geschäftsmodelle entwickelt werden.
 
 Webseite: [https://valtech-mobility.com](https://valtech-mobility.com)
 
