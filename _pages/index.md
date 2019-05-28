@@ -31,10 +31,4 @@ Die Veranstaltungen und auch die Verpflegung sind für unsere Besucher vollkomme
 
 ----
 
-### Partner Events
 
-#### JAX 2019
-
-[![JAX 2019](files/events/jax2019.jpg "JAX 2019")](https://jax.de)
-
-Die JAX ist die Konferenz für moderne Java- und Web-Entwicklung, für Software-Architektur und innovative Infrastruktur. Bekannte Experten vermitteln hier ihr Erfahrungswissen – verständlich, praxisnah und erfolgsorientiert. Ein besonderer Fokus liegt auf Java Core- und Enterprise-Technologien, Microservices, dem Spring-Ökosystem, JavaScript, Continuous Delivery und DevOps.
