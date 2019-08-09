@@ -4,7 +4,6 @@ rvm:
 branches:
   only:
   - master
-sudo: true  
 script:
 - lein run
 - bundle exec jekyll build
