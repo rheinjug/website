@@ -10,5 +10,5 @@
                  [slugger "1.0.1"]]
   :main ^:skip-aot hyde.core
   :target-path "target/%s"
-  :repositories [["jcenter" {:url "http://jcenter.bintray.com"}]]
+  :repositories [["jcenter" {:url "https://jcenter.bintray.com"}]]
   :profiles {:uberjar {:aot :all}})
