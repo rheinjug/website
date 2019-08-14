@@ -31,4 +31,10 @@ Die Veranstaltungen und auch die Verpflegung sind für unsere Besucher vollkomme
 
 ----
 
+### Partner Events
 
+#### W-JAX 2019
+
+[![W-JAX 2019](files/events/wjax2019.jpg "W-JAX 2019")](https://wjax.de)
+
+Die Konferenz für Java, Architektur- und Software-Innovation.
