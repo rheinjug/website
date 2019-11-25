@@ -33,8 +33,8 @@ Die Veranstaltungen und auch die Verpflegung sind für unsere Besucher vollkomme
 
 ### Partner Events
 
-#### W-JAX 2019
+#### JavaLand 2020
 
-[![W-JAX 2019](files/events/wjax2019.jpg "W-JAX 2019")](https://wjax.de)
+[![JavaLand 2020](files/events/javaland2020.jpg "JavaLand 2020")](https://www.javaland.eu/)
 
-Die Konferenz für Java, Architektur- und Software-Innovation.
+Die JavaLand 2020 empfängt dich vom 17. bis 19. März 2020 im Phantasialand Brühl. Das große Wiedersehen der Community mit Freizeitpark-Flair bietet auch in diesem Jahr wieder die ideale Umgebung für Wissensaustausch und Networking. Dich erwarten zahlreiche Vorträge von Top-Referenten, interaktive Community-Aktivitäten und jede Menge Spaß! Ganz neu: Der Thementag zum Thema Microservices am Donnerstag!
