@@ -50,3 +50,21 @@ Webseite: [https://collenda.com/de-en](https://collenda.com/de-en)
 Die FACT ist als Teil des Software AG Konzerns ein führender Anbieter von Softwarelösungen, konzeptioneller Beratung und weitergehender Dienstleistungen für den gesamten Kapitalanlageprozess. Unsere Softwarelösungen decken den kompletten Java-Technologie-Stack ab, umfassen neben webbasierten Plattformen auch komplexe Eclipse-RCP-Anwendungen und vereinen viele bewährte als auch brandneue Technologien miteinander. Wir suchen dynamische Teamplayer, die Spaß an der Entwicklung haben und einem jungen motivierten Kollegenkreis helfen wollen den erfolgreichen Unternehmensweg weiter zu bestreiten.
 
 Webseite: [http://www.fact.de](http://www.fact.de)
+
+# Silbersponsor: INNOQ
+
+![Silbersponsor: INNOQ](files/sponsoring/innoq.png "Silbersponsor: INNOQ")
+
+INNOQ ist ein Technologie-Beratungsunternehmen. Wir beraten ehrlich, denken innovativ und entwickeln leidenschaftlich gern. Das Ergebnis sind erfolgreiche Softwarelösungen, Infrastrukturen und Geschäftsmodelle.
+
+Unsere Leistungen teilen sich in folgende Schwerpunkte auf:
+
+* Strategie- und Technologieberatung
+* Entwicklung digitaler Produkte und Geschäftsmodelle
+* Softwarearchitektur und -entwicklung
+* Digitale Plattformen und Infrastrukturen
+* Wissenstransfer, Coaching und Trainings
+
+Unsere Standorte sind Monheim am Rhein, Berlin, Hamburg, Zürich, Offenbach, Köln, Nürnberg und München.
+
+Webseite: [https://www.innoq.com](https://www.innoq.com)
