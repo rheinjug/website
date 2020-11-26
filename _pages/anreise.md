@@ -21,7 +21,7 @@ Verlassen Sie die Endstation in Fahrtrichtung und folgen dann dem Weg, der dort 
 Es kann verkehrstechnisch günstiger sein, mit dem Bus zu kommen. Nehmen Sie die 735, 827, 835, 836 oder den SB56 bis Universität Mitte. Folgen Sie dem Weg den Hügel hoch, am See vorbei. Sie erreichen dann einen Platz. Zur rechten befindet sich die Bibliothek. Gehen Sie geradeaus an der Bibliothek und am nächsten Gebäude (auch zur Rechten) vorbei. Dann sollten Sie schon den gelben Türeingang zu Gebäude 25.12 sehen.
 
 ## Taxi
-Lassen Sie sich zur Haltestelle Universität Mitte bringen.
+Lassen Sie sich zur Haltestelle "Universität Mitte" bringen.
 
 ## PKW
 Die ausgewiesenen Parkplätze an der Universität sind kostenlos. Bitte beachten Sie, dass Falschparker abgeschleppt werden. Für Besucher der rheinjug bieten sich die Parkplätze P2 und P10 sowie die Tiefgarage P3 an. Am Abend sind dort in der Regel hinreichend viele Parkplätze frei. 
