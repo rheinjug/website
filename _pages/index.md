@@ -30,3 +30,11 @@ Die Veranstaltungen und auch die Verpflegung sind für unsere Besucher vollkomme
 {% include mediathek_entries_latest.html %}
 
 ----
+
+### Partner Events
+
+#### JAX 2021
+
+[![JAX 2021](files/events/jax2021.jpg "JAX 2021")](https://jax.de)
+
+Die Konferenz für Java, Architektur- und Software-Innovation.
