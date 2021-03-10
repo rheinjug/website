@@ -41,6 +41,6 @@ Die Konferenz für Java, Architektur- und Software-Innovation.
 
 #### JavaLand 2021
 
-[![JavaLand 2021](files/events/javaland2021.jpg "JavaLand 2021")](https://www.javaland.eu)
+[![JavaLand 2021](files/events/javaland2021.jpeg "JavaLand 2021")](https://www.javaland.eu)
 
 JAVALAND 2021 16. UND 17. MÄRZ 2021 ALS ONLINE-KONFERENZ
