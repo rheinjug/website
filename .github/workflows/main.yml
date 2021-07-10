@@ -36,7 +36,7 @@ jobs:
           
       # Runs a single command using the runners shell
       - name: Fetch infos from Meetup.com
-        run: ./lein run
+        run: chmod +x lein && ./lein run
   
       - name: Build Website
         run: bundle exec jekyll build
