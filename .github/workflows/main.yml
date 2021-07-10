@@ -48,14 +48,14 @@ jobs:
           rm _site/Gemfile
           rm _site/Gemfile.lock
           
-      -name: Upload to Server 
-       uses: Creepios/sftp-action@v1.0.1
-       with:
-         host: ${{ secrets.HOST }}
-         port: 22
-         username: ${{ secrets.USERNAME }}
-         password: ${{ secrets.PASSWORD }}
-         localPath: '_site/'
-         remotePath: ${{ secrets.PATH }}
+       -name: Upload to Server 
+        uses: Creepios/sftp-action@v1.0.1
+        with:
+          host: ${{ secrets.HOST }}
+          port: 22
+          username: ${{ secrets.USERNAME }}
+          password: ${{ secrets.PASSWORD }}
+          localPath: '_site/'
+          remotePath: ${{ secrets.PATH }}
 
 
