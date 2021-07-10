@@ -25,8 +25,11 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v2
-      - uses: ruby/setup-ruby@473e4d8fe5dd94ee328fdfca9f8c9c7afc9dae5e
+      - name: Checkout Repository 
+        uses: actions/checkout@v2
+      
+      - name: Setup Ruby 
+        uses: ruby/setup-ruby@473e4d8fe5dd94ee328fdfca9f8c9c7afc9dae5e
         with:
           ruby-version: '2.4'
           bundler-cache: true
@@ -37,5 +40,15 @@ jobs:
   
       - name: Build Website
         run: bundle exec jekyll build
+
+      - name: Prepare Site for Upload
+        run: |
+          rm -rf _site/target
+          rm _site/gitignore_travis
+          rm _site/Gemfile
+          rm _site/Gemfile.lock
+          
+      -name: Upload to Server 
+       run: echo "Foo"
 
 
