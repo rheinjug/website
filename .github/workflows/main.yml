@@ -27,7 +27,9 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
       - uses: ruby/setup-ruby@473e4d8fe5dd94ee328fdfca9f8c9c7afc9dae5e
-
+        with:
+          ruby-version: '2.4'
+          
       # Runs a single command using the runners shell
       - name: Fetch infos from Meetup.com
         run: lein run
