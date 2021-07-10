@@ -36,7 +36,9 @@ jobs:
           
       # Runs a single command using the runners shell
       - name: Fetch infos from Meetup.com
-        run: chmod +x lein && ./lein run
+        uses: oxr463/setup-leiningen@0.0.1
+        with:
+          exec: lein run
   
       - name: Build Website
         run: bundle exec jekyll build
