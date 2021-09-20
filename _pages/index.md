@@ -33,14 +33,8 @@ Die Veranstaltungen und auch die Verpflegung sind für unsere Besucher vollkomme
 
 ### Partner Events
 
-#### JAX 2021
+#### JavaLand 2022
 
-[![JAX 2021](files/events/jax2021.jpg "JAX 2021")](https://jax.de)
+[![JavaLand 2022](files/events/javaland2022.jpeg "JavaLand 2021")](https://www.javaland.eu)
 
-Die Konferenz für Java, Architektur- und Software-Innovation.
-
-#### JavaLand 2021
-
-[![JavaLand 2021](files/events/javaland2021.jpeg "JavaLand 2021")](https://www.javaland.eu)
-
-JAVALAND 2021 16. UND 17. MÄRZ 2021 ALS ONLINE-KONFERENZ
+JAVALAND 2022 15. bis 17. MÄRZ 2022 im Phantasialand Brühl
