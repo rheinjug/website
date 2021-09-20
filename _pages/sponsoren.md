@@ -43,11 +43,12 @@ Collenda mit Hauptsitz in Meerbusch bei Düsseldorf ist einer der europaweit fü
 
 Webseite: [https://collenda.com/de-en](https://collenda.com/de-en)
 
-# Silbersponsor: FACT
+# Silbersponsor: Fact Informationssysteme & Consulting AG
 
-![Silbersponsor: FACT](files/sponsoring/fact.png "Silbersponsor: FACT")
+![Silbersponsor: Fact Informationssysteme & Consulting AG](files/sponsoring/fact.png "Silbersponsor: Fact Informationssysteme & Consulting AG")
 
-Die FACT ist als Teil des Software AG Konzerns ein führender Anbieter von Softwarelösungen, konzeptioneller Beratung und weitergehender Dienstleistungen für den gesamten Kapitalanlageprozess. Unsere Softwarelösungen decken den kompletten Java-Technologie-Stack ab, umfassen neben webbasierten Plattformen auch komplexe Eclipse-RCP-Anwendungen und vereinen viele bewährte als auch brandneue Technologien miteinander. Wir suchen dynamische Teamplayer, die Spaß an der Entwicklung haben und einem jungen motivierten Kollegenkreis helfen wollen den erfolgreichen Unternehmensweg weiter zu bestreiten.
+Die Fact steht als Teil des Software AG-Konzerns für digitale Innovationen für den gesamten Kapitalanlageprozess. Wir sind digital uncomplicators. Unsere Vision: Wir machen komplexe Vorgänge in der Finanzbranche durch Digitalisierung einfacher und erfolgreicher. Dafür bieten wir eine 1A-Kombination von Softwarelösungen und Beratungsleistungen. Seit rund 25 Jahren und mit einem Team von gut 55 Mitarbeitern an den Standorten Neuss und Frankfurt a.M.
+Der Produktbereich der Fact bietet mit einem jungen und hoch motivierten Team anspruchsvolle Software-Lösungen. Wir setzen auf den zukunftsfähigen Aus- und Umbau unserer bestehenden Produktwelt sowie neue Web-Produktlinien mit Hilfe von aktuellen Technologien - und sind immer auf der Suche nach engagierten neuen Team-Mitgliedern.
 
 Webseite: [http://www.fact.de](http://www.fact.de)
 
