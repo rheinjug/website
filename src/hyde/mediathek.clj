@@ -44,7 +44,7 @@
                    :style "margin-bottom: 2rem;"}
    [:div.col-4
     [:a {:href link}
-     [:img.thumbnail {:src thumbnail}]]]
+     [:img.thumbnail {:src thumbnail :alt (str "Link zum Vortrag " title)}]]]
    [:div.col-8
     [:a {:href link}
      [:h5.title title]]
