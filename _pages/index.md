@@ -35,6 +35,6 @@ Die Veranstaltungen und auch die Verpflegung sind für unsere Besucher vollkomme
 
 #### JavaLand 2022
 
-[![JavaLand 2022](files/events/javaland2022.jpeg "JavaLand 2021")](https://www.javaland.eu)
+[![JavaLand 2022](files/events/javaland2022.jpeg "JavaLand 2022")](https://www.javaland.eu)
 
 JAVALAND 2022 15. bis 17. MÄRZ 2022 im Phantasialand Brühl
