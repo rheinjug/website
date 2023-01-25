@@ -33,8 +33,8 @@ Die Veranstaltungen und auch die Verpflegung sind für unsere Besucher vollkomme
 
 ### Partner Events
 
-#### JavaLand 2022
+#### JavaLand 2023
 
 [![JavaLand 2023](files/events/javaland2023.jpeg "JavaLand 2023")](https://www.javaland.eu)
 
-JAVALAND 2022 21. bis 23. MÄRZ 2023 im Phantasialand Brühl
+JAVALAND 2023 21. bis 23. MÄRZ 2023 im Phantasialand Brühl
