@@ -42,8 +42,8 @@ jobs:
           distribution: 'temurin'
           java-version: '17'
           
-      - name: wget Clojure
-        uses: wei/wget@v1
+      - name: get Clojure
+        uses: wei/curl@master
         with:
           args: -O https://download.clojure.org/install/linux-install-1.11.1.1273.sh      
           
@@ -53,8 +53,8 @@ jobs:
          chmod +x linux-install-1.11.1.1273.sh
          sudo ./linux-install-1.11.1.1273.sh
      
-      - name: wget Leiningen
-        uses: wei/wget@v1
+      - name: get Leiningen
+        uses: wei/curl@master
         with:
           args: -O https://raw.githubusercontent.com/technomancy/leiningen/stable/bin/lein  
                   
