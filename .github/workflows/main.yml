@@ -37,6 +37,8 @@ jobs:
       # Runs a single command using the runners shell
       - name: Install Clojure
         uses: DeLaGuardo/setup-clojure@11.0
+        with:
+          lein: 2.9.1
         
       - name: Fetch Termine fomr Meetup.com 
         run: lein run
