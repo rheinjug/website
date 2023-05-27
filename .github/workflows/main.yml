@@ -37,6 +37,9 @@ jobs:
       # Runs a single command using the runners shell
       - name: Prepare java
         uses: actions/setup-java@v3
+        with:
+          distribution: 'temurin'
+          java-version: '17'
         
       - name: Install Clojure
         uses: DeLaGuardo/setup-clojure@11.0
