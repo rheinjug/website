@@ -35,6 +35,10 @@ jobs:
           bundler-cache: true
           
       # Runs a single command using the runners shell
+      
+      - name: Setze benutzerdefinierte Runner-Umgebung
+        uses: docker/setup-remote-docker@v2
+      
       - name: Prepare java
         uses: actions/setup-java@v3
         with:
