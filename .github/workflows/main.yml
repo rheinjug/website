@@ -35,10 +35,11 @@ jobs:
           bundler-cache: true
           
       # Runs a single command using the runners shell
-      - name: Fetch infos from Meetup.com
-        uses: oxr463/setup-leiningen@0.0.1
-        with:
-          exec: lein run
+      - name: Install Clojure
+        uses: DeLaGuardo/setup-clojure@11.0
+        
+      - name: Fetch Termine fomr Meetup.com 
+        run: lein run
   
       - name: Build Website
         run: bundle exec jekyll build
