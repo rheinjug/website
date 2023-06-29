@@ -20,3 +20,23 @@ jobs:
       run: lein deps
     - name: Fetch Infos from Meetup
       run: lein run
+      
+    - name: Setup Ruby 
+      uses: ruby/setup-ruby@473e4d8fe5dd94ee328fdfca9f8c9c7afc9dae5e
+      with:
+        ruby-version: '2.4'
+        bundler-cache: true
+               
+
+    - name: Build Website
+      run: bundle exec jekyll build
+
+    - name: Upload to Server 
+      uses: Creepios/sftp-action@v1.0.1
+      with:
+        host: ${{ secrets.HOST }}
+        port: 22
+        username: ${{ secrets.USERNAME }}
+        password: ${{ secrets.PASSWORD }}
+        localPath: '_site/'
+        remotePath: ${{ secrets.PATH }}
