@@ -4,6 +4,11 @@ title: Willkommen bei der rheinjug
 permalink: /index
 ---
 
+# In Memoriam: Stefan Tilkov
+
+Wir sind alle vollkommen erschüttert, fassungslos und unendlich traurig darüber, dass Stefan Tilkov verstorben ist. Unsere Gedanken sind bei dir Stefan und wir wünschen deiner Familie und deinen Freunden viel Stärke in dieser harten Zeit. Stefan, du warst ein ganz besonderer Mensch, mit dem die rheinjug so viel verbunden hat und wir alle werden dich fürchterlich vermissen. Danke Stefan, für alles, was wir von dir lernen und für die schönen Zeiten, die wir mit dir verbringen durften.
+
+----
 
 Die rheinjug Düsseldorf ist eine von weltweit vielen Java User Groups.
 Wir organisieren Veranstaltungen im Bereich Java und der JVM, wir werfen
