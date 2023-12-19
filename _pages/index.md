@@ -26,6 +26,16 @@ Die Veranstaltungen und auch die Verpflegung sind für unsere Besucher vollkomme
 
 ----
 
+### Partner Events
+
+#### JavaLand 2024
+
+[![JavaLand 2024](files/events/javaland2024.jpeg "JavaLand 2024")](https://www.javaland.eu)
+
+JAVALAND 2024 09. bis 11. APRIL 2024 am Nürburgring
+
+----
+
 ### Neueste Aufzeichnungen
 
 {% include mediathek_entries_latest.html %}
