@@ -1,4 +1,4 @@
----
+ork---
 layout: default
 title: Willkommen bei der rheinjug
 permalink: /index
@@ -20,7 +20,7 @@ Der Ablauf einer Abendveranstaltung bei der rheinjug ist folgendermaßen struktu
 * 18:30 - 19:00 Uhr: Türen auf, Networking, Essen und Softdrinks
 * 19:00 - 19:15 Uhr: Ansagen, Verlosung
 * 19:15 - ca. 20:45 Uhr: Fachvortrag
-* im Anschluss Afterwork Party mit Softdrinks, Bier (auch alkoholfrei)
+* im Anschluss Networking 
 
 Die Veranstaltungen und auch die Verpflegung sind für unsere Besucher vollkommen kostenfrei.
 
