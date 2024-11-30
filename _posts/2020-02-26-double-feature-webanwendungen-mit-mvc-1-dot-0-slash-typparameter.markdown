@@ -8,4 +8,25 @@ status: "past"
 ort: "Universität Düsseldorf, Hörsaal 5C, Gebäude 25.12"
 zeit: "18:30"
 ---
-<p>Webanwendungen mit MVC 1.0 und Eclipse Krazo</p> <p>Abstract<br/>Bisher wird die Java Enterprise Welt von zwei Frontendtechnologien beherrscht: Java Server Pages (JSP)<br/>und Java Server Faces (JSF). Beide Technologien folgen Paradigmen, welche die Anforderungen<br/>an moderne und verteilte Systeme kaum erfüllen können. Mit der actionbasierten MVC API 1.0 soll dieses Problem gelöst werden.</p> <p>Der Vortrag geht zuerst auf die theoretischen Grundlagen der API und ihren Platz in der Java Enterprise Welt ein.<br/>Im Anschluss wird anhand eines durchgängigen Beispiels gezeigt, wie MVC Ressourcen angelegt und grundlegende Use-Cases damit implementiert werden.</p> <p>Bio:<br/>Tobias Erdle arbeitet als Consultant bei INNOQ und entwickelt seit mehreren Jahren JVM-basierte Desktop- und Webanwendungen. Neben dem Lösen technischer Herausforderungen beschäftigt er sich außerdem mit verschiedenen agilen Vorgehensmethoden. Abseits des Projektalltags unterstützt Tobias mehrere Open-Source Projekte, unter anderem als Committer bei Eclipse Krazo</p> <p>Lieber ein Typparameter zu viel als einer zu wenig</p> <p>Abstract:<br/>So gut wie alle modernen Programmiersprachen erlauben es, Routinen zu parametrisieren – über Werte und über Typen. Für Letzteres gibt es verschiedenen Begriffe: “Templates”, “Generics” oder aber “Parametric Polymorphism”. Diese Begriffe sollen hier einmal geklärt werden. Außerdem lernen wir die Vorteile von Typparametern kennen und warum Type Erasure in Java nicht nur richtig, sondern auch notwendig ist. Schließlich kommen wir auf Philipp Wadlers einflussreichen Artikel “Theorems For Free” zu sprechen, welcher eine Technik beschreibt, mit der wir Aussagen über Programme nur anhand der Typen treffen können.</p> <p>Bio:<br/>Lars Hupel ist Consultant bei INNOQ in München und ist bekannt als einer der Gründer der Typelevel-Initiative, die sich der Entwicklung von typgetriebenen Scala-Bibliotheken in einer einsteigerfreundlichen Umgebung verschrieben hat. Er spricht oft auf Konferenzen und ist im Open-Source-Umfeld in Scala unterwegs. Außerdem programmiert und redet er gern über Haskell, Prolog und Rust.</p> 
+
+Webanwendungen mit MVC 1.0 und Eclipse Krazo
+ 
+Abstract
+Bisher wird die Java Enterprise Welt von zwei Frontendtechnologien beherrscht: Java Server Pages (JSP)
+und Java Server Faces (JSF). Beide Technologien folgen Paradigmen, welche die Anforderungen
+an moderne und verteilte Systeme kaum erfüllen können. Mit der actionbasierten MVC API 1.0 soll dieses Problem gelöst werden.
+ 
+Der Vortrag geht zuerst auf die theoretischen Grundlagen der API und ihren Platz in der Java Enterprise Welt ein.
+Im Anschluss wird anhand eines durchgängigen Beispiels gezeigt, wie MVC Ressourcen angelegt und grundlegende Use-Cases damit implementiert werden.
+ 
+Bio:
+Tobias Erdle arbeitet als Consultant bei INNOQ und entwickelt seit mehreren Jahren JVM-basierte Desktop- und Webanwendungen. Neben dem Lösen technischer Herausforderungen beschäftigt er sich außerdem mit verschiedenen agilen Vorgehensmethoden. Abseits des Projektalltags unterstützt Tobias mehrere Open-Source Projekte, unter anderem als Committer bei Eclipse Krazo
+ 
+Lieber ein Typparameter zu viel als einer zu wenig
+ 
+Abstract:
+So gut wie alle modernen Programmiersprachen erlauben es, Routinen zu parametrisieren – über Werte und über Typen. Für Letzteres gibt es verschiedenen Begriffe: “Templates”, “Generics” oder aber “Parametric Polymorphism”. Diese Begriffe sollen hier einmal geklärt werden. Außerdem lernen wir die Vorteile von Typparametern kennen und warum Type Erasure in Java nicht nur richtig, sondern auch notwendig ist. Schließlich kommen wir auf Philipp Wadlers einflussreichen Artikel “Theorems For Free” zu sprechen, welcher eine Technik beschreibt, mit der wir Aussagen über Programme nur anhand der Typen treffen können.
+ 
+Bio:
+Lars Hupel ist Consultant bei INNOQ in München und ist bekannt als einer der Gründer der Typelevel-Initiative, die sich der Entwicklung von typgetriebenen Scala-Bibliotheken in einer einsteigerfreundlichen Umgebung verschrieben hat. Er spricht oft auf Konferenzen und ist im Open-Source-Umfeld in Scala unterwegs. Außerdem programmiert und redet er gern über Haskell, Prolog und Rust.
+ 

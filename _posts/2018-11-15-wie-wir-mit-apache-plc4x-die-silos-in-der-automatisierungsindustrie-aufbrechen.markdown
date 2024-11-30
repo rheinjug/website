@@ -8,4 +8,22 @@ status: "past"
 ort: "Universität Düsseldorf, Hörsaal 5C, Gebäude 25.12"
 zeit: "18:30"
 ---
-<p>Abstract:</p> <p>Die Automatisierungsindustrie ist seit jeher komplett in den Händen der großen SPS-Hersteller. Zwar gibt es hier sicherlich auch Ausnahmen, allerdings sind diese eine sehr kleine Minderheit.</p> <p>Auch wenn bei allen „Industrie-4.0“-Projekten Themen wie Cloud, Big Data, Fast Data, Machine Learning etc. angesprochen werden, so wird auch hier momentan eher auf die proprietären Cloud-Lösungen der SPS-Hersteller zurückgegriffen.</p> <p>Das wollen wir mit Apache PLC4X (incubating) ändern.</p> <p>Apache PLC4X wurde als protokollunabhängige API entworfen, die es leicht macht, mit industriellen Steuerungen direkt zu kommunizieren. Allerdings: Im Vergleich zum mehr und mehr an Verbreitung gewinnenden OPC-UA-Standard erfordert der Einsatz von PLC4X keine Änderungen an den technischen Anlagen.</p> <p>Darüber hinaus liefert PLC4X eine Reihe von Integrationsmodulen mit, die es einfach machen, die Kommunikation mit industriellen Steuerungen in Systeme wie Apache Kafka (Streams), Apache Nifi und Apache Camel zu integrieren. Via Apache Edgent (incubating) besteht beispielsweise sogar die Möglichkeit, direkt mit den IoT-Cloud-Lösungen von Amazon, Google, Microsoft und IBM zu kommunizieren. Damit eröffnet sich für uns das gesamte Spektrum der modernen Open-Source-Tools, um die Probleme der Industrie zu lösen, und das alles zu einem Bruchteil der Kosten.</p> <p>In diesem Talk will ich über den aktuellen Stand des Projekts berichten und aufzeigen, was jetzt schon möglich ist. Darüber hinaus möchte ich einen Ausblick geben, wohin die Reise gehen soll.</p> <p>Bio:</p> <p>Christofer Dutz schwimmt gerne mal abseits des Mainstreams. Seine Leidenschaft ist es, neue Wege zu beschreiten – sei es, neue Technologien überhaupt erstmal für die Masse nutzbar zu machen oder Etabliertes neu zu kombinieren. Während seiner Arbeit, aber auch privat, investiert er fast seine komplette Freizeit in diverse Projekte bei der Apache Software Foundation. Hier ist er in Projekten wie Apache Flex, Apache Edgent und jetzt auch Apache PLC4X nicht nur Committer, sondern auch Mitglied des (P)PMCs (Projektvorstand). Darüber hinaus ist er auch auf der Community-Seite sehr engagiert, weshalb er 2015 auch zum Member der Apache Software Foundation ernannt worden ist.</p> 
+
+Abstract:
+ 
+Die Automatisierungsindustrie ist seit jeher komplett in den Händen der großen SPS-Hersteller. Zwar gibt es hier sicherlich auch Ausnahmen, allerdings sind diese eine sehr kleine Minderheit.
+ 
+Auch wenn bei allen „Industrie-4.0“-Projekten Themen wie Cloud, Big Data, Fast Data, Machine Learning etc. angesprochen werden, so wird auch hier momentan eher auf die proprietären Cloud-Lösungen der SPS-Hersteller zurückgegriffen.
+ 
+Das wollen wir mit Apache PLC4X (incubating) ändern.
+ 
+Apache PLC4X wurde als protokollunabhängige API entworfen, die es leicht macht, mit industriellen Steuerungen direkt zu kommunizieren. Allerdings: Im Vergleich zum mehr und mehr an Verbreitung gewinnenden OPC-UA-Standard erfordert der Einsatz von PLC4X keine Änderungen an den technischen Anlagen.
+ 
+Darüber hinaus liefert PLC4X eine Reihe von Integrationsmodulen mit, die es einfach machen, die Kommunikation mit industriellen Steuerungen in Systeme wie Apache Kafka (Streams), Apache Nifi und Apache Camel zu integrieren. Via Apache Edgent (incubating) besteht beispielsweise sogar die Möglichkeit, direkt mit den IoT-Cloud-Lösungen von Amazon, Google, Microsoft und IBM zu kommunizieren. Damit eröffnet sich für uns das gesamte Spektrum der modernen Open-Source-Tools, um die Probleme der Industrie zu lösen, und das alles zu einem Bruchteil der Kosten.
+ 
+In diesem Talk will ich über den aktuellen Stand des Projekts berichten und aufzeigen, was jetzt schon möglich ist. Darüber hinaus möchte ich einen Ausblick geben, wohin die Reise gehen soll.
+ 
+Bio:
+ 
+Christofer Dutz schwimmt gerne mal abseits des Mainstreams. Seine Leidenschaft ist es, neue Wege zu beschreiten – sei es, neue Technologien überhaupt erstmal für die Masse nutzbar zu machen oder Etabliertes neu zu kombinieren. Während seiner Arbeit, aber auch privat, investiert er fast seine komplette Freizeit in diverse Projekte bei der Apache Software Foundation. Hier ist er in Projekten wie Apache Flex, Apache Edgent und jetzt auch Apache PLC4X nicht nur Committer, sondern auch Mitglied des (P)PMCs (Projektvorstand). Darüber hinaus ist er auch auf der Community-Seite sehr engagiert, weshalb er 2015 auch zum Member der Apache Software Foundation ernannt worden ist.
+ 
