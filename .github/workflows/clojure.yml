@@ -26,6 +26,7 @@ jobs:
     - name: Generierte Daten kopieren
       run: | 
         pwd
+        ls -al
         cp -r hyde/jekyll/_data/* jekyll/_data/
         cp -r hyde/jekyll/_posts/* jekyll/_posts/
         cp -r hyde/jekyll/_includes/* jekyll/_includes/
