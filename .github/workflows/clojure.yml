@@ -17,10 +17,11 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Fetch Data from Meetup
-      working-directory: hyde
       run: | 
+        cd hyde
         lein deps
         lein run
+        cd ..
 
     - name: Setup Ruby 
       uses: ruby/setup-ruby@473e4d8fe5dd94ee328fdfca9f8c9c7afc9dae5e
