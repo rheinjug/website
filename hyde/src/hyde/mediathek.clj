@@ -71,4 +71,4 @@
      (->> (take 3 entries) render h/html (spit output-latest-to))
      (->> entries render h/html (spit output-to))))
   ([]
-   (build-mediathek "../jekyll/_includes/mediathek_entries.html" "../jekyll/_includes/mediathek_entries_latest.html")))
+   (build-mediathek "jekyll/_includes/mediathek_entries.html" "jekyll/_includes/mediathek_entries_latest.html")))
