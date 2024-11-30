@@ -77,8 +77,8 @@ zeit: \"%6$s\"
 
 (defn build-meetup-entries []
   (doseq [{datum :datum titel :titel :as event} (map extract-render-data data)]
-    (spit (format "_posts/%1$tY-%1$tm-%1$td-%2$s.markdown" datum (slugger/->slug titel)) (render event)))
-  (spit "_data/featured.yml" next-event)
+    (spit (format "../jekyll/_posts/%1$tY-%1$tm-%1$td-%2$s.markdown" datum (slugger/->slug titel)) (render event)))
+  (spit "../jekyll/_data/featured.yml" next-event)
   :done)
 
 

@@ -16,23 +16,24 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - name: Install dependencies
-      run: lein deps
-    - name: Fetch Infos from Meetup
-      run: lein run
-      
+    - name: Fetch Data from Meetup
+      working-directory: hyde
+      run: | 
+        lein deps
+        lein run
+
     - name: Setup Ruby 
       uses: ruby/setup-ruby@473e4d8fe5dd94ee328fdfca9f8c9c7afc9dae5e
       with:
         ruby-version: '2.4'
         bundler-cache: true
-               
-
+  
     - name: Build Website
+      working-directory: jekyll
       run: bundle exec jekyll build -V
     
     - name: Deploy 🚀
       uses: JamesIves/github-pages-deploy-action@v4
       with:
-        folder: _site
+        folder: jekyll/_site
         
