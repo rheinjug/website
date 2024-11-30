@@ -1,7 +1,16 @@
 (ns hyde.meetups
   (:require [clojure.data.json :as json]
             [slugger.core :as slugger]
-            [clojure.spec.alpha :as s]))
+            [clojure.spec.alpha :as s]
+            [clojure.string :as str])
+  (:import [org.jsoup Jsoup]))
+
+(defn- strip-html [code]
+   (-> code
+       (str/replace "<p>" "\n")
+       (str/replace "</p>" "\n")
+       (str/replace "<br/>" "\n")
+       ))
 
 (defn- extract-render-data [first-meetup-entry]
   (when-not (nil? first-meetup-entry)
@@ -21,7 +30,7 @@
        :datum (java.util.Date. datum)
        :titel titel
        :status (keyword status)
-       :beschreibung beschreibung
+       :beschreibung (strip-html beschreibung)
        :zeit time})))
 
 (s/fdef extract-render-data
