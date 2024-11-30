@@ -1,0 +1,88 @@
+<div class="card">
+  <div class="card-body">
+    <h5><strong>Nächste Veranstaltung</strong></h5>
+
+    {% if site.data.featured %}
+    <p>{{site.data.featured.date | date: '%d.%m.%Y'}}</p>
+    <p>{{ site.data.featured.title }}</p>
+    <a class="btn btn-primary btn-sm" href="{{ site.data.featured.meetuplink }}" style="white-space:normal !important">
+      Anmeldung über Meetup
+    </a>
+    {% else %}
+    <p class="text-info">
+      <i>
+        Aktuell sind keine weiteren Veranstaltungen geplant. Besuche uns bald wieder, es wird sicherlich ein weiterer
+        spannender Vortrag folgen!
+      </i>
+    </p>
+    <a class="btn btn-primary btn-sm" href="https://www.meetup.com/de-DE/rheinJUG/"
+       style="white-space:normal !important">
+      Auf Meetup nachschauen
+    </a>
+    {% endif %}
+  </div>
+</div>
+
+<hr>
+
+<div class="card">
+  <div class="card-body">
+    <h5><strong>Gold-Sponsor</strong></h5>
+    <a href="https://www.valtech.de/">
+      <img class="sponsoring-sidebar" src="/files/sponsoring/valtech_mobility.png" alt="Gold-Sponsor: Valtech Mobility">
+    </a>
+  </div>
+</div>
+
+
+<hr>
+
+
+<div class="card">
+  <div class="card-body">
+    <h5><strong>Silber-Sponsoren</strong></h5>
+    <p>
+      <a href="http://www.yourkit.com/">
+        <img class="sponsoring-bottom" src="/files/sponsoring/yourkit.png" alt="Silber-Sponsor: Yourkit">
+      </a>
+    </p>
+    <p>
+      <a href="https://www.aryza.com/">
+        <img class="sponsoring-bottom" src="/files/sponsoring/aryza.png" alt="Silber-Sponsor: Aryza">
+      </a>
+    </p>
+    <p>
+      <a href="http://innoq.com/">
+        <img class="sponsoring-bottom" src="/files/sponsoring/innoq.png" alt="Silber-Sponsor: INNOQ">
+      </a>
+    </p>
+  </div>
+</div>
+
+<hr>
+
+<div class="card">
+  <div class="card-body">
+    <h6>Preise werden gestiftet von</h6>
+    <p>
+      <a href="http://www.javamagazin.de/">
+        <img class="sponsoring-bottom" src="/files/sponsoring/javamagazin.jpg" alt="Preis-Sponsor: Java Magazin">
+      </a>
+    </p>
+    <p>
+      <a href="http://www.sigs-datacom.de/fachzeitschriften/javaspektrum.html">
+        <img class="sponsoring-bottom" src="/files/sponsoring/javaspektrum.gif" alt="Preis-Sponsor: Java Spektrum">
+      </a>
+    </p>
+    <p>
+      <a href="http://www.jetbrains.com/">
+        <img class="sponsoring-bottom" src="/files/sponsoring/jetbrains.png" alt="Preis-Sponsor: Jetbrains">
+      </a>
+    </p>
+    <p>
+      <a href="https://www.dpunkt.de/">
+        <img class="sponsoring-bottom" src="/files/sponsoring/dpunkt.png" alt="Preis-Sponsor: DPunkt Verlag">
+      </a>
+    </p>
+  </div>
+</div>

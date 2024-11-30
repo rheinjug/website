@@ -1,0 +1,11 @@
+---
+layout: post
+date: 2020-02-06 14:55:05 +0100
+title: "Open-source Identity & Access Management mit Keycloak"
+meetuplink: "https://www.meetup.com/rheinjug/events/267999340/"
+categories: rheinjug event
+status: "past"
+ort: "Universität Düsseldorf, Hörsaal 5C, Gebäude 25.12"
+zeit: "18:30"
+---
+<p>Abstract:<br/>In diesem Vortrag wird die Open-Source-Identity- und Access-Management-Software Keycloak aus dem Hause Red Hat vorgestellt und gezeigt, wie man in Spring-Anwendungen von zentralen Authentifizierungs- und Autorisierungsmechanismen profitieren kann.</p> <p>Keycloak bietet Single Sign-on auf der Basis von Standardprotokollen wie OpenID Connect 1.0, OAuth 2.0 und SAML V2, welches sich einfach in eigene Anwendungen integrieren lässt. Keycloak bietet bereits von Haus aus zahlreiche Features und umfangreiche Möglichkeiten, das System an eigene Bedürfnisse anzupassen. Darüber hinaus lassen sich auch zahlreiche Verzeichnisdienste auf Basis von LDAP oder Kerberos sehr einfach anbinden, außerdem besteht die Möglichkeit, über eigene Erweiterungen beliebige Benutzerdatenbanken anzubinden.</p> <p>Nach einem kurzen Einführung zu Keycloak, beginnen wir mit einer kurzen Tour durch die Verwaltungsoberfläche. Anschließend betrachten wir die Protokolle OAuth 2.0 und OpenID Connect im Kontext von Single Sign-on. Nachdem diese Grundlagen gelegt sind, werden die Integrationsmöglichkeiten mit Spring-Anwendungen und Keycloak am Beispiel von ausgewählten Szenarien vorgestellt. Zum Abschluss wird eine erweiterbare Identity- und Access-Management-Infrastruktur demonstriert.</p> <p>Bio<br/>Thomas Darimont arbeitet als Fellow bei der codecentric AG in Saarbrücken. Dort hilft er Kunden bei der Implementierung zentralisierter Identity-Management-Plattformen. Davor arbeitete er als Principal Software Engineer im Spring Data Team bei Pivotal.<br/>Er hat mehr als fünfzehn Jahre Erfahrung in der Entwicklung von Enterprise Applications und Open Source-Projekten mit Java und .NET. Seine Arbeitsschwerpunkte liegen in den Bereichen Softwarearchitektur, Spring-Ökosystem, Performance Tuning und Security. In seiner Freizeit organisiert er gerne Community Meetups und arbeitet an Open-Source-Projekten wie Keycloak, Spring und Cloud Foundry mit.</p> 
