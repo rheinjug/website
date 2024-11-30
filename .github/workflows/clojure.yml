@@ -22,24 +22,15 @@ jobs:
         lein deps
         lein run
 
-    - name: Setup Ruby 
-      uses: ruby/setup-ruby@473e4d8fe5dd94ee328fdfca9f8c9c7afc9dae5e
-      with:
-        ruby-version: '2.4'
-        bundler-cache: true
-
     - name: Generierte Daten kopieren
       run: | 
         cp -r hyde/jekyll/_data/* jekyll/_data/*
         cp -r hyde/jekyll/_posts/* jekyll/_posts/*
         cp -r hyde/jekyll/_includes/* jekyll/_includes/*
   
-    - name: Build Website
-      working-directory: jekyll
-      run: bundle exec jekyll build -V
-    
+   
     - name: Deploy 🚀
       uses: JamesIves/github-pages-deploy-action@v4
       with:
-        folder: jekyll/_site
+        folder: jekyll
         
