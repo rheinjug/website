@@ -2,8 +2,7 @@
   (:require [clojure.data.json :as json]
             [slugger.core :as slugger]
             [clojure.spec.alpha :as s]
-            [clojure.string :as str])
-  (:import [org.jsoup Jsoup]))
+            [clojure.string :as str]))
 
 (defn- strip-html [code]
    (-> code
