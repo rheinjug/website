@@ -24,9 +24,9 @@ jobs:
 
     - name: Generierte Daten kopieren
       run: | 
-        cp -r hyde/jekyll/_data/* jekyll/_data/*
-        cp -r hyde/jekyll/_posts/* jekyll/_posts/*
-        cp -r hyde/jekyll/_includes/* jekyll/_includes/*
+        cp -r hyde/jekyll/_data/* jekyll/_data/
+        cp -r hyde/jekyll/_posts/* jekyll/_posts/
+        cp -r hyde/jekyll/_includes/* jekyll/_includes/
   
    
     - name: Deploy 🚀
