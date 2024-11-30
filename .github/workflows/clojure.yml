@@ -21,9 +21,11 @@ jobs:
         cd hyde
         lein deps
         lein run
+        cd ..
 
     - name: Generierte Daten kopieren
       run: | 
+        pwd
         cp -r hyde/jekyll/_data/* jekyll/_data/
         cp -r hyde/jekyll/_posts/* jekyll/_posts/
         cp -r hyde/jekyll/_includes/* jekyll/_includes/
