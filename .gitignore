@@ -16,3 +16,5 @@ _includes/mediathek_entries.html
 _includes/mediathek_entries_latest.html
 mr_poole/output
 hyde/jekyll/_includes
+jekyll/_newposts
+jekyll/files/extern
