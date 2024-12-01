@@ -26,6 +26,7 @@ jobs:
     - name: Neue Veranstaltungen mit Mr Poole übersetzen
       run: | 
         cd mr_poole
+        ./gradlew -version
         ./gradlew run
         cd ..
 
