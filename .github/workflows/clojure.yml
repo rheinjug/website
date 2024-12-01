@@ -16,12 +16,11 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - name: Fetch Data from Meetup
-      run: | 
-        cd hyde
-        lein deps
-        lein run
-        cd ..
+
+    - uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin' 
+          java-version: '21'
 
     - name: Neue Veranstaltungen mit Mr Poole übersetzen
       run: | 
@@ -29,6 +28,15 @@ jobs:
         ./gradlew -version
         ./gradlew run
         cd ..
+    
+    - name: Fetch Data from Meetup
+      run: | 
+        cd hyde
+        lein deps
+        lein run
+        cd ..
+
+
 
     - name: Generierte Daten kopieren
       run: | 
