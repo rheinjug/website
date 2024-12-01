@@ -23,6 +23,12 @@ jobs:
         lein run
         cd ..
 
+    - name: Neue Veranstaltungen mit Mr Poole übersetzen
+      run: | 
+        cd mr_poole
+        ./gradlew run
+        cd ..
+
     - name: Generierte Daten kopieren
       run: | 
         pwd
