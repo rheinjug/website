@@ -18,9 +18,9 @@ jobs:
     - uses: actions/checkout@v3
 
     - uses: actions/setup-java@v4
-        with:
-          distribution: 'temurin' 
-          java-version: '21'
+      with:
+        distribution: 'temurin' 
+        java-version: '21'
 
     - name: Neue Veranstaltungen mit Mr Poole übersetzen
       run: | 
