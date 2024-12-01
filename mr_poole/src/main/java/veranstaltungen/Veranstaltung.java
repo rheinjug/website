@@ -68,4 +68,7 @@ public record Veranstaltung(LocalDate datum,
       DateTimeFormatter.ofPattern("yyyy-MM-dd");
 
 
+  public boolean rheinjug() {
+      return reihe==Reihe.RHEINJUG;
+  }
 }

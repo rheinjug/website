@@ -36,8 +36,6 @@ jobs:
         lein run
         cd ..
 
-
-
     - name: Generierte Daten kopieren
       run: | 
         pwd
