@@ -42,7 +42,7 @@ public class Xml2Markdown {
         new XmlParser(),
         new MarkdownFileWriter("output/mds"),
         new MarkdownZipFileWriter("output/veranstaltungen.zip"),
-        new VeranstaltungsInfoXmlWriter("output/index.xml"))
+        new VeranstaltungsInfoXmlWriter("output/uebersicht.xml"))
         .run();
   }
 
