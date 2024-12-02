@@ -9,6 +9,7 @@ status: "upcoming"
 categories: rheinjug event
 ort: "Universität Düsseldorf, Hörsaal 5F, Gebäude 25.12"
 zeit: "18:30"
+short: "  Microservices haben sich als Architekturmuster für die Realisierung von Softwareprojekten etabliert. Bei der Entwicklung kann es dabei leicht zu einer hohen Anzahl von Services kommen, was zu einer erhöhten Komplexität in der Infrastruktur führt. ..."
 ---
 
 ## Zusammenfassung
@@ -17,6 +18,7 @@ zeit: "18:30"
  Microservices haben sich als Architekturmuster für die Realisierung von Softwareprojekten etabliert. Bei der Entwicklung kann es dabei leicht zu einer hohen Anzahl von Services kommen, was zu einer erhöhten Komplexität in der Infrastruktur führt. Mit Spring Modulith ist es möglich ein Microservice zu strukturieren und die Anzahl der Services zu reduzieren.
 Anhand eines Beispiels erkläre ich die Application Modules von Spring Modulith. Im Vortrag zeige ich, wie du Module und Abhängigkeiten im Code definierst und Komponentendiagramme generierst.
 Du wirst verstehen, wie du deine Services im Code in logische Module aufteilst, um so nach Domänen strukturierte Services zu erstellen. Anschließend schauen wir uns an, wie du diese Module isoliert testen kannst und wie dir Verifizierungen dabei helfen, dass du und dein Team von den definierten Abhängigkeiten profitieren.
+
 
 
 ## Sprecher:in
