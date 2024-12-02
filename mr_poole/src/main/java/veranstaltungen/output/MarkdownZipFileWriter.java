@@ -1,15 +1,19 @@
 package veranstaltungen.output;
 
 import static veranstaltungen.helper.Error.raiseBuildError;
+import static veranstaltungen.helper.Utils.filenameFor;
+import static veranstaltungen.helper.Utils.slug;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Path;
+import java.time.format.DateTimeFormatter;
 import java.util.List;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipOutputStream;
 import veranstaltungen.Veranstaltung;
+import veranstaltungen.helper.Utils;
 
 public class MarkdownZipFileWriter {
 
@@ -24,7 +28,7 @@ public class MarkdownZipFileWriter {
          ZipOutputStream zos = new ZipOutputStream(fos)) {
 
       for (Veranstaltung v : veranstaltungen) {
-        ZipEntry zipEntry = new ZipEntry("veranstaltungen/%s.md".formatted(v.code()));
+        ZipEntry zipEntry = new ZipEntry(getPathFor(v));
         zos.putNextEntry(zipEntry);
         zos.write(v.asMarkdown().getBytes(StandardCharsets.UTF_8));
         zos.closeEntry();
@@ -35,4 +39,12 @@ public class MarkdownZipFileWriter {
     }
     System.out.println(outputFile+" geschrieben ✅");
   }
+
+  private static final DateTimeFormatter FORMATTER = DateTimeFormatter.ofPattern("yyyy-MM-dd");
+
+  private String getPathFor(Veranstaltung veranstaltung) {
+    String filename = slug(filenameFor(veranstaltung));
+    return "veranstaltungen/"+filename+".md";
+  }
+
 }
