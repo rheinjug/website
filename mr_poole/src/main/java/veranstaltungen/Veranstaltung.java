@@ -4,6 +4,10 @@ import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Collectors;
 
 public record Veranstaltung(LocalDate datum,
                             LocalTime uhrzeit,
@@ -28,7 +32,9 @@ public record Veranstaltung(LocalDate datum,
   }
 
   public String asMarkdown() {
-    return """
+    List<String> elements = new ArrayList<>();
+
+    elements.add("""
         ---
         layout: post
         reihe: %s
@@ -40,17 +46,9 @@ public record Veranstaltung(LocalDate datum,
         categories: %s event
         ort: "%s"
         zeit: "%s"
+        short: "%s"
         ---
-        
-        ## Zusammenfassung
-        
-        %s
-        
-        ## Sprecher:in
-        
-        %s
-        """.formatted(
-        reihe,
+        """.formatted(reihe,
         datum.format(MD_DATE_FORMATTER),
         titel,
         sprecher,
@@ -58,10 +56,25 @@ public record Veranstaltung(LocalDate datum,
         status(),
         reihe.toString().toLowerCase(),
         ort,
-        uhrzeit.format(TIME_FORMATTER)
-        ,inhalt
-        ,sprecherBio
-    );
+        uhrzeit.format(TIME_FORMATTER),
+        shortInhalt()));
+    if (inhalt != null && !inhalt.isBlank()) {
+      elements.add("""
+          ## Zusammenfassung
+          
+          %s
+          """.formatted(inhalt));
+    }
+
+    if (sprecherBio != null && !sprecherBio.isBlank()) {
+      elements.add("""
+          
+          ## Sprecher:in    
+          
+          %s
+          """.formatted(sprecherBio));
+    }
+    return elements.stream().collect(Collectors.joining("\n"));
   }
 
   private static final DateTimeFormatter MD_DATE_FORMATTER =
@@ -69,6 +82,17 @@ public record Veranstaltung(LocalDate datum,
 
 
   public boolean rheinjug() {
-      return reihe==Reihe.RHEINJUG;
+    return reihe == Reihe.RHEINJUG;
+  }
+
+  public String shortInhalt() {
+    if (inhalt == null || inhalt.trim().isBlank()) {
+      return "";
+    }
+    return Arrays.stream(inhalt.split(" "))
+        .limit(35)
+        .collect(Collectors.joining(" "))
+        .replaceAll("\n", " ")
+        + " ...";
   }
 }
