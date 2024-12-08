@@ -27,6 +27,8 @@ jobs:
         cd mr_poole
         ./gradlew -version
         ./gradlew run
+        ls output
+        ls output/mds
         cd ..
     
     - name: Fetch Data from Meetup
