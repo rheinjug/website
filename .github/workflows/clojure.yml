@@ -38,12 +38,12 @@ jobs:
 
     - name: Generierte Daten kopieren
       run: | 
-        cp -r mr_poole/output/mds/* jekyll/_newposts
-        cp mr_poole/output/veranstaltungen.zip jekyll/files/extern
-        cp mr_poole/output/uebersicht.xml jekyll/files/extern
-        cp -r hyde/jekyll/_data/* jekyll/_data/
-        cp -r hyde/jekyll/_posts/* jekyll/_posts/
-        cp -r hyde/jekyll/_includes/* jekyll/_includes/
+        cp -rf mr_poole/output/mds/* jekyll/_newposts
+        cp -f mr_poole/output/veranstaltungen.zip jekyll/files/extern
+        cp -f mr_poole/output/uebersicht.xml jekyll/files/extern
+        cp -rf hyde/jekyll/_data/* jekyll/_data/
+        cp -rf hyde/jekyll/_posts/* jekyll/_posts/
+        cp -rf hyde/jekyll/_includes/* jekyll/_includes/
   
    
     - name: Deploy 🚀
