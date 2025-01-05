@@ -35,15 +35,6 @@ Webseite: [https://valtech-mobility.com](https://valtech-mobility.com)
 
 Webseite: [http://yourkit.com](http://yourkit.com)
 
-# Silbersponsor: Aryza
-
-![Silbersponsor: Aryza](files/sponsoring/aryza.png "Silbersponsor: Aryza")
-
-Aryza mit Hauptsitz in Meerbusch bei Düsseldorf ist einer der europaweit führenden Anbieter digitaler Lösungen im Kredit- und Forderungsmanagement. Das Unternehmen mit Standorten in Deutschland und den Niederlanden betreut seit über 30 Jahren Unternehmen aus dem Finanzsektor und der Industrie. Ein besonderer Fokus von Aryza liegt in der Digitalisierung der Prozesse, dem Einsatz künstlicher Intelligenz, Forderungsmanagement in der Cloud sowie Industrie 4.0-Lösungen für das Kredit- und Forderungsmanagement.
-
-Webseite: [https://www.aryza.com/](https://www.aryza.com)
-
-
 # Silbersponsor: INNOQ
 
 ![Silbersponsor: INNOQ](files/sponsoring/innoq.png "Silbersponsor: INNOQ")
