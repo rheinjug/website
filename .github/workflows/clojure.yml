@@ -34,8 +34,9 @@ jobs:
     - name: Fetch Data from Meetup
       run: | 
         cd hyde
-        lein deps
-        lein run
+        chmod +x lein
+        ./lein deps
+        ./lein run
         cd ..
 
     - name: Generierte Daten kopieren
