@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <veranstaltungen>
-    <veranstaltung code="SEP20241112" ort="Seminarraum 25.12.02.33" reihe="SEP" sprecher="Thomas Traude und Kristian Bergmann " termin="2024-11-12T16:30" titel="Workshop: Testgetriebene Entwicklung"/>
-    <veranstaltung code="SEP20241210" ort="Seminarraum 25.12.02.33" reihe="SEP" sprecher="Gulmariyam Yerzhanova, Accso" termin="2024-12-10T16:30" titel="Workshop: BeST Foundation: Test"/>
     <veranstaltung code="SEP20241126" ort="Seminarraum 25.12.02.33" reihe="SEP" sprecher="Roland Weisleder" termin="2024-11-26T16:30" titel="Workshop: Refactory von Legacy Code"/>
+    <veranstaltung code="SEP20241210" ort="Seminarraum 25.12.02.33" reihe="SEP" sprecher="Gulmariyam Yerzhanova, Accso" termin="2024-12-10T16:30" titel="Workshop: BeST Foundation: Test"/>
+    <veranstaltung code="SEP20241112" ort="Seminarraum 25.12.02.33" reihe="SEP" sprecher="Thomas Traude und Kristian Bergmann " termin="2024-11-12T16:30" titel="Workshop: Testgetriebene Entwicklung"/>
 </veranstaltungen>
