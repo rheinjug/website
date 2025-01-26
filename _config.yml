@@ -20,7 +20,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 # baseurl: "/jekyll_ghp_test" # the subpath of your site, e.g. /blog
 baseurl: ""
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: rheinjug
+# twitter_username: rheinjug
 github_username:  rheinjug
 future: true
 
