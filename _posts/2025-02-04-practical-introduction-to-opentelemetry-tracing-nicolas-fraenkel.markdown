@@ -4,7 +4,7 @@ date: 2025-02-04 14:55:05 +0100
 title: "Practical introduction to OpenTelemetry tracing (Nicolas Fränkel)"
 meetuplink: "https://www.meetup.com/rheinjug/events/305734380/"
 categories: rheinjug event
-status: "upcoming"
+status: "past"
 ort: "Universität Düsseldorf, Hörsaal 5F, Gebäude 25.12"
 zeit: "18:30"
 ---
