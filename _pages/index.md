@@ -26,6 +26,14 @@ Die Veranstaltungen und auch die Verpflegung sind für unsere Besucher vollkomme
 
 ----
 
+### JavaLand 2025
+
+![JavaLand 2025](files/events/javaland2025-jpg "JavaLand2025")
+
+[https://www.javaland.eu/](https://www.javaland.eu/)
+
+----
+
 ### Neueste Aufzeichnungen
 
 {% include mediathek_entries_latest.html %}
