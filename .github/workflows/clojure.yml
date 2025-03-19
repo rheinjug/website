@@ -31,13 +31,13 @@ jobs:
         ls output/mds
         cd ..
     
-    - name: Fetch Data from Meetup
-      run: | 
-        cd hyde
-        chmod +x lein
-        ./lein deps
-        ./lein run
-        cd ..
+#    - name: Fetch Data from Meetup
+#      run: | 
+#        cd hyde
+#        chmod +x lein
+#        ./lein deps
+#        ./lein run
+#        cd ..
 
     - name: Generierte Daten kopieren
       run: | 
