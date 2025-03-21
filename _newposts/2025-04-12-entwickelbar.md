@@ -2,8 +2,8 @@
 layout: post
 reihe: RHEINJUG
 date: 2025-04-12 14:55:05 +0100
-title: "Entwickelbar Unkonferenz"
-sprecher: ""
+title: "Entwickelbar"
+sprecher: "Unkonferenz"
 code: "RJ20250412"
 status: "upcoming"
 categories: rheinjug event
