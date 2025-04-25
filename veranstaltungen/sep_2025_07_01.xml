@@ -1,0 +1,19 @@
+<veranstaltung>
+ <reihe>sep</reihe>
+ <datum>01.07.2025</datum>
+ <uhrzeit>16:30</uhrzeit>
+ <ort>Seminarraum 25.12.02.33</ort>
+
+ <titel>Barrierefreie Interfaces</titel>
+ <sprecher>Anna Maier</sprecher>
+ 
+<abstract>
+Eine moderne Webapp berücksichtigt Nutzerbedürfnisse. Ein wichtiger Aspekt davon ist Barrierefreiheit: erst mit einem barrierefreien Interface können wir alle potentiellen Nutzer (und Kunden) erreichen. Darüber hinaus wird Barrierefreiheit auch von der Gesetzgebung gefordert. In dieser Session lernt ihr die Grundlagen von Barrierefreiheit kennen und erfahrt hands on, wie ihr Barrierefreiheit sicherstellen könnt.
+
+Ablauf:
+Nach einer Einführung in das Thema lernen wir Tools  kennen und Methoden, um Barrierefreiheit zu testen. Danach krempeln wir die Ärmel hoch und arbeiten daran, eine kleine App barrierefrei zu machen. Bitte bringt einen Laptop mit.
+</abstract>
+<bio>
+
+</bio>
+</veranstaltung>
