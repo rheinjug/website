@@ -5,7 +5,7 @@ date: 2025-05-08 14:55:05 +0100
 title: "Guided Tour ins Darknet 2025"
 sprecher: "Merlin Stottmeister"
 code: "RJ20250508"
-status: "upcoming"
+status: "past"
 categories: rheinjug event
 ort: "Hörsaal 5C"
 zeit: "18:30"
