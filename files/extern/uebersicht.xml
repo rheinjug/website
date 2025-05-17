@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <veranstaltungen>
-    <veranstaltung code="SEP20250701" ort="Seminarraum 25.12.02.33" reihe="SEP" sprecher="Anna Maier" termin="2025-07-01T16:30" titel="Barrierefreie Interfaces"/>
-    <veranstaltung code="SEP20241210" ort="Seminarraum 25.12.02.33" reihe="SEP" sprecher="Gulmariyam Yerzhanova, Accso" termin="2024-12-10T16:30" titel="Workshop: BeST Foundation: Test"/>
-    <veranstaltung code="SEP20250121" ort="Seminarraum 25.12.02.33" reihe="SEP" sprecher="Jens Bendisposto" termin="2025-01-21T16:30" titel="Workshop: Domain Storytelling am Praxisbeispiel"/>
     <veranstaltung code="RJ20250508" ort="Hörsaal 5C" reihe="RHEINJUG" sprecher="Merlin Stottmeister" termin="2025-05-08T18:30" titel="Guided Tour ins Darknet 2025"/>
-    <veranstaltung code="SEP20241126" ort="Seminarraum 25.12.02.33" reihe="SEP" sprecher="Roland Weisleder" termin="2024-11-26T16:30" titel="Workshop: Refactory von Legacy Code"/>
+    <veranstaltung code="SEP20241210" ort="Seminarraum 25.12.02.33" reihe="SEP" sprecher="Gulmariyam Yerzhanova, Accso" termin="2024-12-10T16:30" titel="Workshop: BeST Foundation: Test"/>
     <veranstaltung code="RJ20250412" ort="Seminarräume Juridikum 1. OG" reihe="RHEINJUG" sprecher="Unkonferenz" termin="2025-04-12T09:30" titel="Entwickelbar"/>
+    <veranstaltung code="SEP20250121" ort="Seminarraum 25.12.02.33" reihe="SEP" sprecher="Jens Bendisposto" termin="2025-01-21T16:30" titel="Workshop: Domain Storytelling am Praxisbeispiel"/>
+    <veranstaltung code="SEP20241126" ort="Seminarraum 25.12.02.33" reihe="SEP" sprecher="Roland Weisleder" termin="2024-11-26T16:30" titel="Workshop: Refactory von Legacy Code"/>
     <veranstaltung code="SEP20241112" ort="Seminarraum 25.12.02.33" reihe="SEP" sprecher="Thomas Traude und Kristian Bergmann " termin="2024-11-12T16:30" titel="Workshop: Testgetriebene Entwicklung"/>
+    <veranstaltung code="SEP20250701" ort="Seminarraum 25.12.02.33" reihe="SEP" sprecher="Anna Maier" termin="2025-07-01T16:30" titel="Barrierefreie Interfaces"/>
 </veranstaltungen>
