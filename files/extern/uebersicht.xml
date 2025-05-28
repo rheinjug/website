@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <veranstaltungen>
-    <veranstaltung code="SEP20250603" ort="Seminarraum 25.12.01.51" reihe="SEP" sprecher="Carsten Bruckhoff (Capgemini)" termin="2025-06-03T16:30" titel="Von der Idee zur Anwendung"/>
+    <veranstaltung code="SEP20250603" ort="Seminarraum 25.12.01.51" reihe="SEP" sprecher="Carsten Bruckhoff" termin="2025-06-03T16:30" titel="Von der Idee zur Anwendung"/>
     <veranstaltung code="RJ20250508" ort="Hörsaal 5C" reihe="RHEINJUG" sprecher="Merlin Stottmeister" termin="2025-05-08T18:30" titel="Guided Tour ins Darknet 2025"/>
     <veranstaltung code="SEP20241210" ort="Seminarraum 25.12.02.33" reihe="SEP" sprecher="Gulmariyam Yerzhanova, Accso" termin="2024-12-10T16:30" titel="Workshop: BeST Foundation: Test"/>
     <veranstaltung code="RJ20250412" ort="Seminarräume Juridikum 1. OG" reihe="RHEINJUG" sprecher="Unkonferenz" termin="2025-04-12T09:30" titel="Entwickelbar"/>
