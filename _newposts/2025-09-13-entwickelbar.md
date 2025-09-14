@@ -5,7 +5,7 @@ date: 2025-09-13 14:55:05 +0100
 title: "Entwickelbar"
 sprecher: "Unkonferenz"
 code: "RJ20250913"
-status: "upcoming"
+status: "past"
 categories: rheinjug event
 ort: "Seminarräume Juridikum 1. OG"
 zeit: "09:30"
