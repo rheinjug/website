@@ -1,0 +1,20 @@
+<veranstaltung>
+ <reihe>rheinjug</reihe>
+ <datum>22.10.2025</datum>
+ <uhrzeit>18:30</uhrzeit>
+ <ort>Hörsaal 5C</ort>
+
+ <titel>KI-Integration Einfach, nativ und ohne komplexe Frameworks</titel>
+ <sprecher>Isabel König-Wingen</sprecher>
+ 
+ <abstract>
+
+ Muss es wirklich immer ein komplexes Framework sein, um KI sinnvoll in eine Anwendung zu integrieren? Bei Tools wie LangChain ist oft gar nicht ersichtlich, was im Hintergrund passiert. In diesem Vortrag zeige ich, wie wir mit minimalem Aufwand eine eigene OpenAI-Integration umgesetzt haben – von der direkten Anbindung über die Versionierung von Prompts bis hin zu Tracing, Qualitätssicherung der generierten Inhalte und Prompt-Evaluation. Statt auf abstrakte Frameworks zu setzen, haben wir eine schlanke und transparente Lösung entwickelt, die volle Kontrolle über Daten und Prozesse ermöglicht. Ein praxisnaher Einblick in Architektur, Herausforderungen und Learnings einer KI-Integration.
+
+ Anmeldung: https://www.meetup.com/rheinjug/events/311319807/
+
+</abstract>
+<bio>
+Isabel ist Senior Consultant bei INNOQ und entwickelt robuste Systeme mit Java oder Ruby on Rails. Ihr Fokus liegt darauf, Komplexität durch klare Architekturen und präzise Lösungen beherrschbar zu machen. Aktuell beschäftigt sie sich mit der Integration generativer KI in Softwareprojekte – insbesondere mit Prompt Engineering und Prompt Evaluation.
+</bio>
+</veranstaltung>
