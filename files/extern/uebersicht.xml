@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <veranstaltungen>
-    <veranstaltung code="RJ20250508" ort="Hörsaal 5C" reihe="RHEINJUG" sprecher="Merlin Stottmeister" termin="2025-05-08T18:30" titel="Guided Tour ins Darknet 2025"/>
-    <veranstaltung code="RJ20251022" ort="Hörsaal 5C" reihe="RHEINJUG" sprecher="Isabel König-Wingen" termin="2025-10-22T18:30" titel="KI-Integration Einfach, nativ und ohne komplexe Frameworks"/>
-    <veranstaltung code="RJ20250412" ort="Seminarräume Juridikum 1. OG" reihe="RHEINJUG" sprecher="Unkonferenz" termin="2025-04-12T09:30" titel="Entwickelbar"/>
-    <veranstaltung code="RJ20250913" ort="Seminarräume Juridikum 1. OG" reihe="RHEINJUG" sprecher="Unkonferenz" termin="2025-09-13T09:30" titel="Entwickelbar"/>
+    <veranstaltung code="SEP20250701" ort="Hörsaal 5D" reihe="SEP" sprecher="Anna Maier" termin="2025-07-01T16:30" titel="Barrierefreie Interfaces"/>
+    <veranstaltung code="SEP20250121" ort="Seminarraum 25.12.02.33" reihe="SEP" sprecher="Jens Bendisposto" termin="2025-01-21T16:30" titel="Workshop: Domain Storytelling am Praxisbeispiel"/>
     <veranstaltung code="SEP20241112" ort="Seminarraum 25.12.02.33" reihe="SEP" sprecher="Thomas Traude und Kristian Bergmann " termin="2024-11-12T16:30" titel="Workshop: Testgetriebene Entwicklung"/>
+    <veranstaltung code="SEP20250603" ort="Seminarraum 25.12.01.51" reihe="SEP" sprecher="Carsten Bruckhoff" termin="2025-06-03T16:30" titel="Von der Idee zur Anwendung"/>
+    <veranstaltung code="RJ20251022" ort="Hörsaal 5C" reihe="RHEINJUG" sprecher="Isabel König-Wingen" termin="2025-10-22T18:30" titel="KI-Integration Einfach, nativ und ohne komplexe Frameworks"/>
+    <veranstaltung code="RJ20250508" ort="Hörsaal 5C" reihe="RHEINJUG" sprecher="Merlin Stottmeister" termin="2025-05-08T18:30" titel="Guided Tour ins Darknet 2025"/>
+    <veranstaltung code="SEP20241126" ort="Seminarraum 25.12.02.33" reihe="SEP" sprecher="Roland Weisleder" termin="2024-11-26T16:30" titel="Workshop: Refactory von Legacy Code"/>
+    <veranstaltung code="RJ20250913" ort="Seminarräume Juridikum 1. OG" reihe="RHEINJUG" sprecher="Unkonferenz" termin="2025-09-13T09:30" titel="Entwickelbar"/>
+    <veranstaltung code="RJ20250412" ort="Seminarräume Juridikum 1. OG" reihe="RHEINJUG" sprecher="Unkonferenz" termin="2025-04-12T09:30" titel="Entwickelbar"/>
     <veranstaltung code="SEP20250929" ort="tba" reihe="SEP" sprecher="" termin="2025-09-29T10:00" titel="Game Jam 2025"/>
     <veranstaltung code="SEP20241210" ort="Seminarraum 25.12.02.33" reihe="SEP" sprecher="Gulmariyam Yerzhanova, Accso" termin="2024-12-10T16:30" titel="Workshop: BeST Foundation: Test"/>
-    <veranstaltung code="SEP20250603" ort="Seminarraum 25.12.01.51" reihe="SEP" sprecher="Carsten Bruckhoff" termin="2025-06-03T16:30" titel="Von der Idee zur Anwendung"/>
-    <veranstaltung code="SEP20250121" ort="Seminarraum 25.12.02.33" reihe="SEP" sprecher="Jens Bendisposto" termin="2025-01-21T16:30" titel="Workshop: Domain Storytelling am Praxisbeispiel"/>
-    <veranstaltung code="SEP20250701" ort="Hörsaal 5D" reihe="SEP" sprecher="Anna Maier" termin="2025-07-01T16:30" titel="Barrierefreie Interfaces"/>
-    <veranstaltung code="SEP20241126" ort="Seminarraum 25.12.02.33" reihe="SEP" sprecher="Roland Weisleder" termin="2024-11-26T16:30" titel="Workshop: Refactory von Legacy Code"/>
 </veranstaltungen>
