@@ -5,7 +5,7 @@ date: 2025-10-22 14:55:05 +0100
 title: "KI-Integration Einfach, nativ und ohne komplexe Frameworks"
 sprecher: "Isabel König-Wingen"
 code: "RJ20251022"
-status: "upcoming"
+status: "past"
 categories: rheinjug event
 ort: "Hörsaal 5C"
 zeit: "18:30"
