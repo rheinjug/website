@@ -10,5 +10,6 @@
     <veranstaltung code="SEP20250603" ort="Seminarraum 25.12.01.51" reihe="SEP" sprecher="Carsten Bruckhoff" termin="2025-06-03T16:30" titel="Von der Idee zur Anwendung"/>
     <veranstaltung code="SEP20250121" ort="Seminarraum 25.12.02.33" reihe="SEP" sprecher="Jens Bendisposto" termin="2025-01-21T16:30" titel="Workshop: Domain Storytelling am Praxisbeispiel"/>
     <veranstaltung code="SEP20250701" ort="Hörsaal 5D" reihe="SEP" sprecher="Anna Maier" termin="2025-07-01T16:30" titel="Barrierefreie Interfaces"/>
+    <veranstaltung code="RJ20251120" ort="Hörsaal 5C" reihe="RHEINJUG" sprecher="Lucas Dohmen" termin="2025-11-20T18:30" titel="Web Performance"/>
     <veranstaltung code="SEP20241126" ort="Seminarraum 25.12.02.33" reihe="SEP" sprecher="Roland Weisleder" termin="2024-11-26T16:30" titel="Workshop: Refactory von Legacy Code"/>
 </veranstaltungen>
