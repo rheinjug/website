@@ -1,0 +1,18 @@
+<veranstaltung>
+ <reihe>rheinjug</reihe>
+ <datum>20.11.2025</datum>
+ <uhrzeit>18:30</uhrzeit>
+ <ort>Hörsaal 5C</ort>
+
+ <titel>Web Performance</titel>
+ <sprecher>Lucas Dohmen</sprecher>
+ 
+ <abstract>
+
+Geschwindigkeit und Ressourcenverbrauch von Websites sind schon lange keine Nischenthemen mehr: Von Umsatz, Conversion Rates und SEO-Ranking über Usability und Barrierefreiheit bis hin zur eigenen Produktivität hat Performance Auswirkungen auf alle Bereiche der Web-Entwicklung. Wir besprechen, was sich hinter Web Performance verbirgt und warum das Thema wichtig ist – und zwar für alle, die Webseiten entwickeln. Des Weiteren schauen wir uns anhand eines praktischen Beispiels hilfreiche Methodiken und Werkzeuge an, um die Performance von Webanwendungen zu analysieren und zu verbessern.
+ Anmeldung: https://www.meetup.com/rheinjug/events/311440237/
+
+</abstract>
+<bio>
+Lucas ist ein versierter Architekt, Teamlead, Softwareentwickler und Trainer mit 18 Jahren Erfahrung. Zuletzt war er Teamlead eines Webteams, das an einer 12 Jahre alten Codebasis arbeitete, mit 45 Millionen aktiven Nutzer:innen auf der ganzen Welt. Er ist Co-Autor der Buchreihe „The Rails Way“, erfahrener Konferenzsprecher und Podcaster. Zudem ist er Begründer und Maintainer mehrerer Open-Source-Projekte.</bio>
+</veranstaltung>
